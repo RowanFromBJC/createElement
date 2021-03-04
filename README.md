@@ -36,6 +36,7 @@ var element = createElement(type);
 ````
 * type (**Required**)
 The type of HTML element ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element))
+
 > Everything else is from the return value of `createElement`
 
 ### *element*.error
@@ -43,3 +44,39 @@ The type of HTML element ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTM
 if (element.error) throw element.error;
 ```
 Either false or an TypeError.
+
+### *element*.addText(*text*)
+```js
+element.addText('Hello');
+```
+* text (**Required**)
+The text to be added
+
+Adds text (Will be inside the end element)
+So, if you create a `p` element, and add the text `Hello`, then the end product will be `<p>Hello</p>`
+
+### *element*.bind()
+```js
+element.bind();
+```
+Binds text to element
+If you don't run `element.bind()`, then added text won't be in element. So, if you create a `p` element, and add the text `Hello`, but don't run `element.bind()`, then the end product will be `<p></p>`.
+
+### *element*.append(*selector*, *selectorType?*)
+* selector (**Required**)
+The element to append to
+
+By default, this will be a CSS selector
+* selectorType (**Optional**)
+The type of the selector
+Can be `"css"` (CSS selector), `"class"` (element class), or `"id"` (element ID)
+
+### *element*.append(*selector*, *selectorType?*)
+* selector (**Required**)
+The element to prepend to
+Same as *element*.append(), but this inserts the element before the element.
+
+By default, this will be a CSS selector
+* selectorType (**Optional**)
+The type of the selector
+Can be `"css"` (CSS selector), `"class"` (element class), or `"id"` (element ID)
