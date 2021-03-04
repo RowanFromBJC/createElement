@@ -23,7 +23,7 @@ function uCreateElement(type) {
   val.native.element = document.createElement(type); // Create element (won't show up until appended or prepended)
   if (type == null || type == undefined || typeof type != 'string') { // Validate type
     return {
-      "error": new Error('Bad selector') // Return error and exit function
+      "error": new TypeError('Bad selector') // Return error and exit function
     };
   }
   type = type.toLowerCase(); // Convert element type to lowercase
