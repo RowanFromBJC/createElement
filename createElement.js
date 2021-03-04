@@ -1,6 +1,6 @@
 /*
  * MIT Liense Rowan C
- * createImage.js
+ * createElement.js
  * Comments included
  * Un-minified
  */
