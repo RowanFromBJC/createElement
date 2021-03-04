@@ -1,6 +1,12 @@
 # createElement
 Easily create elements
 
+Script links:
+* Un-minified
+  - GitHub
+    - https://raw.githubusercontent.com/RowanFromBJC/createElement/main/createElement.js
+  - 
+
 Initialize:
 ```js
 const createElement = uCreateElement.bind(vCreateElement);
