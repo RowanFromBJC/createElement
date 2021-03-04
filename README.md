@@ -2,10 +2,8 @@
 Easily create elements
 
 Script links:
-* Un-minified
-  - GitHub
-    - https://raw.githubusercontent.com/RowanFromBJC/createElement/main/createElement.js
-  - 
+* Un-minified: https://projects.rowandev.tk/?project=createElement&file=js&mime=text/javascript
+* Minified: https://projects.rowandev.tk/?project=createElement&file=js&mime=text/javascript&min=true
 
 Initialize:
 ```js
