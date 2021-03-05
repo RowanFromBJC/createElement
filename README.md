@@ -41,8 +41,6 @@ var element = createElement(type);
 * type (**Required**)
 The type of HTML element ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element))
 
-> Everything else is from the return value of `createElement`
-
 ### *element*.error
 ```js
 if (element.error) throw element.error;
