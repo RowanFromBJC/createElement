@@ -74,7 +74,7 @@ By default, this will be a CSS selector
 The type of the selector
 Can be `"css"` (CSS selector), `"class"` (element class), or `"id"` (element ID)
 
-### *element*.append(*selector*, *selectorType?*)
+### *element*.prepend(*selector*, *selectorType?*)
 * selector (**Required**)
 The element to prepend to
 Same as *element*.append(), but this inserts the element before the element.
