@@ -62,6 +62,7 @@ So, if you create a `p` element, and add the text `Hello`, then the end product 
 element.bind();
 ```
 Binds text to element
+
 If you don't run `element.bind()`, then added text won't be in element. So, if you create a `p` element, and add the text `Hello`, but don't run `element.bind()`, then the end product will be `<p></p>`.
 
 ### *element*.append(*selector*, *selectorType?*)
