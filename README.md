@@ -24,6 +24,7 @@ Add arguments:
 element.args.src = 'https://i.ytimg.com/vi/JilHZ_DdBYg/maxresdefault.jpg';
 element.args.width = 400;
 ```
+Note: If you want to set the class, use *element*.args.className
 Bind text nodes:
 ```js
 element.bind();
